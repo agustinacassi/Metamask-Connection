@@ -46,22 +46,62 @@ export default function Home() {
         justifyContent: "center",
         alignItems: "center",
         height: "500px",
+        marginLeft: "auto",
+        marginRight: "auto",
       }}
     >
       <div>
-        <Button variant="contained" onClick={connect}>
+        <Button
+          variant="contained"
+          onClick={connect}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
           Connect to MetaMask
         </Button>
         <br></br>
         {active ? (
-          <span>
+          <span
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          >
             Connected with <b>{account}</b>
           </span>
         ) : (
-          <span>Not connected</span>
+          <span
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          >
+            Not connected
+          </span>
         )}
         <br></br>
-        <Button variant="contained" onClick={disconnect}>
+        <Button
+          variant="contained"
+          onClick={disconnect}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
           Disconnect
         </Button>
       </div>
