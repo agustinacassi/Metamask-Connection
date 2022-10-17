@@ -1,3 +1,9 @@
+Metamask Connection con Web3React.
+
+Pequeño proyecto para crear una instancia de conexión y desconección de Metamask usando el wrapper Web3React.
+
+-------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
